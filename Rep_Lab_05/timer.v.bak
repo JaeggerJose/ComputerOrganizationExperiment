@@ -1,0 +1,11 @@
+module 50mto1(50m_clk,clk);
+	input 50m_clk;
+	output clk;
+	reg [25:0] counter;
+always @(50m_clk) begin
+	counter <= counter+1;
+	if(counter> 26'd50000000-26'd1) begin 
+		counter <= 0;
+		clk <= ~clk;
+	end
+endmodule	

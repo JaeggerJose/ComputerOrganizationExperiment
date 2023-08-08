@@ -1,0 +1,131 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+vCPU
+Z0 !s110 1673514939
+!i10b 1
+!s100 7Xgnl99Ej>Wcj0hWWYNQP1
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8W]8PP=89^LbkSZEXiV8R2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/lms02/OneDrive/Desktop/cpu_sim_model
+Z4 w1673003190
+8C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/CPU.v
+FC:/Users/lms02/OneDrive/Desktop/cpu_sim_model/CPU.v
+!i122 20
+L0 1 67
+Z5 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z6 !s108 1673514939.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/CPU.v|
+!i113 1
+Z7 o-work work
+Z8 tCvgOpt 0
+n@c@p@u
+vDMEM
+R0
+!i10b 1
+!s100 G2:G^Q3z^h:D6dh5X[8K13
+R1
+IM]KG<V4TD0dIaXYRHh5o00
+R2
+R3
+R4
+8C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/DMEM.v
+FC:/Users/lms02/OneDrive/Desktop/cpu_sim_model/DMEM.v
+!i122 21
+L0 1 17
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/DMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/DMEM.v|
+!i113 1
+R7
+R8
+n@d@m@e@m
+vIMEM
+R0
+!i10b 1
+!s100 i@_3>_3NXKM4k^?0k=3;F0
+R1
+ILH;JQ2X[IVYS[`Sg@`L_E3
+R2
+R3
+Z9 w1673003191
+8C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/IMEM.v
+FC:/Users/lms02/OneDrive/Desktop/cpu_sim_model/IMEM.v
+!i122 22
+L0 1 10
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/IMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/IMEM.v|
+!i113 1
+R7
+R8
+n@i@m@e@m
+vTop
+Z10 !s110 1673514940
+!i10b 1
+!s100 gWNlPYOiQE`oe?hBQ8=b@1
+R1
+Il=UUgBJCoMg2W2W^<E7nG3
+R2
+R3
+R9
+8C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top.v
+FC:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top.v
+!i122 23
+L0 1 9
+R5
+r1
+!s85 0
+31
+R6
+!s107 C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top.v|
+!i113 1
+R7
+R8
+n@top
+vTop_tb
+R10
+!i10b 1
+!s100 dCgT=_[zKSYS<lgHolRnn1
+R1
+ILGn_nLCADfSSX^B2][oi:1
+R2
+R3
+R9
+8C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top_tb.v
+FC:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top_tb.v
+!i122 24
+L0 2 17
+R5
+r1
+!s85 0
+31
+!s108 1673514940.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top_tb.v|
+!i113 1
+R7
+R8
+n@top_tb

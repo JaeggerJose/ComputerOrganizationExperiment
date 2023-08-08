@@ -1,0 +1,71 @@
+|CO_Counter
+cout_down <= inst22.DB_MAX_OUTPUT_PORT_TYPE
+CLK => ins.CLK
+CLK => ins1.CLK
+CLK => ins2.CLK
+CLK => ins3.CLK
+S0 => MUX41:inst4.S0
+S0 => MUX41:inst5.S0
+S0 => MUX41:inst6.S0
+S0 => MUX41:inst7.S0
+EN => i.IN0
+EN => ins2t15.IN1
+EN => ins2t16.IN0
+S1 => MUX41:inst4.S1
+S1 => MUX41:inst5.S1
+S1 => MUX41:inst6.S1
+S1 => MUX41:inst7.S1
+In0 => MUX41:inst4.D3
+In1 => MUX41:inst5.D3
+In2 => MUX41:inst6.D3
+In3 => MUX41:inst7.D3
+pin_name1 <= ins.DB_MAX_OUTPUT_PORT_TYPE
+pin_name2 <= ins1.DB_MAX_OUTPUT_PORT_TYPE
+pin_name3 <= ins2.DB_MAX_OUTPUT_PORT_TYPE
+pin_name4 <= ins3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|CO_Counter|MUX41:inst4
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|CO_Counter|MUX41:inst5
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|CO_Counter|MUX41:inst6
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+
+|CO_Counter|MUX41:inst7
+Q <= 6.DB_MAX_OUTPUT_PORT_TYPE
+INH => 7.IN0
+S1 => 8.IN0
+S0 => 10.IN0
+D0 => 2.IN3
+D1 => 3.IN3
+D2 => 4.IN3
+D3 => 5.IN3
+
+

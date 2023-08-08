@@ -1,0 +1,1 @@
+Warning (10268): Verilog HDL information at test.v(22): always construct contains both blocking and non-blocking assignments File: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_07/test.v Line: 22

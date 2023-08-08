@@ -1,0 +1,66 @@
+module test(input clk,input [4:0] TA, input but, output [4:0] Dataout,Addout,Dataout,status_bit,sibTA);
+	reg [2:0] status = 3'b000;
+	reg [7:0] Cosin = 0;
+	reg [7:0] Datain = 0;
+	reg [3:0] FS;
+	wire but_new;
+	reg [7:0] tmpTA;
+	output [7:0] Addout,Dataout;
+	output [15:0] status_bit;
+	output [6:0] sibTA;
+	Rep_Lab_07()
+	debounce(clk, but, but_new)
+	Rep_Lab_07(Cosin,Datain,FS,MD,MB,LD,DS,clk,AA,BA,Addout,Dataout,status_bit,sibTA)
+always *(posedge clk) begin
+	tmpTA = {TA[4],TA[4],TA[4],TA};
+	if(status>=3'b100)
+		status<=3'b000;
+	if(but_new)
+		status <= status+1;
+	case(status)
+		3'b001: begin 
+		Cosin <= 0;
+		Datain <= tmpTA;
+		FS <= 4'bxxxx;
+		MD <= 1'b1;
+		MB <= 1'bx;
+		LD <= 1'b1;
+		DS <= 3'b001;
+		AA <= 3'bxxx;
+		BA <= 3'bxxx;
+		end
+		
+		3'b010: begin 
+		Cosin <= 0;
+		Datain <= tmpTA;
+		FS <= 4'bxxxx;
+		MD <= 1'b1;
+		MB <= 1'bx;
+		LD <= 1'b1;
+		DS <= 3'b010;
+		AA <= 3'bxxx;
+		BA <= 3'bxxx;
+		end
+		
+		3'b011: begin 
+		Cosin <= 0;
+		Datain <= 0;
+		FS <= 4'b0010;
+		MD <= 1'b0;
+		MB <= 1'b0;
+		LD <= 1'b1;
+		DS <= 3'b011;
+		AA <= 3'b001;
+		BA <= 3'b010;
+		end
+		3'b100: begin 
+		Cosin <= 0;
+		Datain <= 0;
+		FS <= 4'b1100;
+		MD <= 1'bx;
+		MB <= 1'b0;
+		LD <= 1'b0;
+		DS <= 3'b000;
+		AA <= 3'bxxx;
+		BA <= 3'b011;
+		end

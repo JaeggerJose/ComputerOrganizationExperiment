@@ -1,0 +1,129 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Rep_Fin_B0829002_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:41 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v 
+# -- Compiling module Top
+# 
+# Top level modules:
+# 	Top
+# End time: 17:26:41 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:41 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v 
+# -- Compiling module shifter
+# 
+# Top level modules:
+# 	shifter
+# End time: 17:26:41 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:42 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v 
+# -- Compiling module Rep_Lab_07
+# 
+# Top level modules:
+# 	Rep_Lab_07
+# End time: 17:26:42 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:42 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v 
+# -- Compiling module registerfile
+# 
+# Top level modules:
+# 	registerfile
+# End time: 17:26:43 on Jan 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:43 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v 
+# -- Compiling module funtion_unit
+# 
+# Top level modules:
+# 	funtion_unit
+# End time: 17:26:43 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:44 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v 
+# -- Compiling module CPU
+# 
+# Top level modules:
+# 	CPU
+# End time: 17:26:44 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:44 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v 
+# -- Compiling module alu
+# ** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	alu
+# End time: 17:26:44 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 3
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:46 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v 
+# -- Compiling module IMEM
+# 
+# Top level modules:
+# 	IMEM
+# End time: 17:26:46 on Jan 12,2023, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 17:26:46 on Jan 12,2023
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v 
+# -- Compiling module DMEM
+# 
+# Top level modules:
+# 	DMEM
+# End time: 17:26:47 on Jan 12,2023, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0
+# 
+vsim work.Top
+# vsim work.Top 
+# Start time: 17:26:55 on Jan 12,2023
+# Loading work.Top
+# Loading work.CPU
+# Loading work.Rep_Lab_07
+# Loading work.registerfile
+# Loading work.funtion_unit
+# Loading work.alu
+# Loading work.shifter
+# Loading work.IMEM
+# Loading work.DMEM
+add wave sim:/Top/*
+run
+# ** Warning: (vsim-7) Failed to open readmem file "imem.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v(6)
+#    Time: 0 ps  Iteration: 0  Instance: /Top/imem
+# ** Warning: (vsim-7) Failed to open readmem file "dmem.txt" in read mode.
+# No such file or directory. (errno = ENOENT)    : C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v(7)
+#    Time: 0 ps  Iteration: 0  Instance: /Top/dmem
+# End time: 17:28:57 on Jan 12,2023, Elapsed time: 0:02:02
+# Errors: 0, Warnings: 2

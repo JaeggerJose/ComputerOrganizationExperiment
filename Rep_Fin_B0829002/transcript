@@ -1,0 +1,30 @@
+vsim -gui work.Top_tb
+# vsim -gui work.Top_tb 
+# Start time: 16:51:54 on Jan 13,2023
+# Loading work.Top_tb
+# Loading work.Top
+# Loading work.CPU
+# Loading work.Rep_Lab_07
+# Loading work.registerfile
+# Loading work.funtion_unit
+# Loading work.alu
+# Loading work.shifter
+# Loading work.IMEM
+# Loading work.DMEM
+# WARNING: No extended dataflow license exists
+add wave sim:/Top_tb/*
+run
+restart
+run
+restart
+run
+restart
+run
+restart
+run
+restart
+run
+restart
+run
+# End time: 16:59:39 on Jan 13,2023, Elapsed time: 0:07:45
+# Errors: 0, Warnings: 1

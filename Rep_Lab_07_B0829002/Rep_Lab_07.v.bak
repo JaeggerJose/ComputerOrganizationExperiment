@@ -1,0 +1,13 @@
+module Rep_Lab_07(Load, DS, input clk)
+	input Load;
+	input [1:0] DS;
+	reg[7:0] R0,R1,R2,R3,R4,R5,R6,R7;
+	wire LE0, LE1, LE2, LE3;
+always @(posedge clk) begin
+	case(DS)
+		2'b00: LE0<=1;
+		2'b01: LE1<=1;
+		2'b10: LE2<=1;
+		2'b11: LE3<=1;
+end
+endmodule 

@@ -1,0 +1,31 @@
+ module alu(input [7:0] A, input [7:0] B, input [2:0] s,output reg [7:0] G, input cin);
+	wire [4:0] ALU_Sel;
+	assign ALU_Sel = {s,cin};
+	reg [7:0] tmp;
+	wire Bpluse, mius1, ground;
+	assign Bpluse = ~B;
+	assign minus1 = -1;
+	assign ground = 0;
+always @(*) begin
+	G = 7'b00000000;
+	if(ALU_Sel) begin
+		case(ALU_Sel[1:0])
+			2'b00: G = A & B;
+			2'b01: G = A | B;
+			2'b10: G = A ^ B;
+			2'b11: G = ~A;
+			default:  G = 7'b00000000;
+		endcase
+	end else begin
+		G=A+cin;
+		case(ALU_Sel[2:1])
+			2'b00: G = G + 0;
+			2'b01: G = G + B;
+			2'b10: G = G + ~B;
+			2'b11: G = G + -1;
+			default:  G=A+cin;
+		endcase
+	end
+end
+endmodule
+	

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/CO_Counter/simulation/qsim
+vCO_Counter
+!s110 1666837152
+!i10b 1
+!s100 T`6ln_h@=DaZG@KTb<@Th2
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+Ih;dz;^`h_6A;SZdKMhV@Y3
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666837150
+8CO_Counter.vo
+FCO_Counter.vo
+!i122 34
+L0 32 534
+Z3 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z4 !s108 1666837152.000000
+!s107 CO_Counter.vo|
+!s90 -work|work|CO_Counter.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@c@o_@counter
+vCO_Counter_vlg_vec_tst
+!s110 1666837153
+!i10b 1
+!s100 UkUE[enH@lU^:j`_W`f9f2
+R1
+I3JeENF>G[@Cml3JbF=kKB1
+R2
+R0
+w1666837148
+8Waveform7.vwf.vt
+FWaveform7.vwf.vt
+!i122 35
+L0 30 572
+R3
+r1
+!s85 0
+31
+R4
+!s107 Waveform7.vwf.vt|
+!s90 -work|work|Waveform7.vwf.vt|
+!i113 1
+R5
+R6
+n@c@o_@counter_vlg_vec_tst

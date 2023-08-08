@@ -1,0 +1,95 @@
+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module registerfile
+
+Top level modules:
+	registerfile
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module shifter
+
+Top level modules:
+	shifter
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v {2 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module alu
+** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v(8): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v(25): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+
+Top level modules:
+	alu
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/minussib.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/minussib.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module minussib
+
+Top level modules:
+	minussib
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/debounce.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/debounce.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module debounce
+
+Top level modules:
+	debounce
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/sib.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/sib.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module sib
+
+Top level modules:
+	sib
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top_tb.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top_tb
+
+Top level modules:
+	Top_tb
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module funtion_unit
+
+Top level modules:
+	funtion_unit
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Rep_Lab_07
+
+Top level modules:
+	Rep_Lab_07
+
+} {} {}}

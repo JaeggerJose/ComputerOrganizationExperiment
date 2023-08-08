@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lms02/OneDrive/Desktop/B0829002_CO/simulation/qsim
+vB0829002_CO
+Z1 !s110 1665741319
+!i10b 1
+!s100 ]5LiRzg?R:cHP9<WNA2;V0
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IH]9YPnJfA9RG>5FKJeXfC0
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1665741317
+8B0829002_CO.vo
+FB0829002_CO.vo
+!i122 12
+L0 32 427
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1665741318.000000
+!s107 B0829002_CO.vo|
+!s90 -work|work|B0829002_CO.vo|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+n@b0829002_@c@o
+vB0829002_CO_vlg_vec_tst
+R1
+!i10b 1
+!s100 Tl2ZfeXIRaW8VO:Z8AMz_1
+R2
+I4NdPz;7Q^Z_?i:DdbCoeh3
+R3
+R0
+w1665741315
+8Waveform3.vwf.vt
+FWaveform3.vwf.vt
+!i122 13
+L0 30 691
+R4
+r1
+!s85 0
+31
+!s108 1665741319.000000
+!s107 Waveform3.vwf.vt|
+!s90 -work|work|Waveform3.vwf.vt|
+!i113 1
+R5
+R6
+n@b0829002_@c@o_vlg_vec_tst

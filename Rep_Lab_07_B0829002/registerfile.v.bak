@@ -1,0 +1,50 @@
+module Rep_Lab_07(Load, DS, clk,Ddata, SA, SB, Adata, Bdata);
+	input [7:0] Ddata;
+	input [1:0] SA, SB;
+	input Load, clk;
+	input [1:0] DS;
+	reg[7:0] R0,R1,R2,R3,R4,R5,R6,R7;
+	reg LE0,LE1,LE2,LE3;
+	wire LD0,LD1,LD2,LD3;
+	output reg [7:0] Adata, Bdata;
+
+	assign LD0 = LE0 & Load;
+	assign LD1 = LE1 & Load;
+	assign LD2 = LE2 & Load;
+	assign LD3 = LE3 & Load;
+
+always @(posedge clk) begin
+	if(LD0)
+		R0 <= Ddata;
+	else if(LD1)
+		R1 <= Ddata;
+	else if(LD2)
+		R2 <= Ddata;
+	else if(LD3)
+		R3 <= Ddata;
+end
+
+always @(*) begin	
+	case(DS)
+		2'b00: LE0=1;
+		2'b01: LE1=1;
+		2'b10: LE2=1;
+		2'b11: LE3=1;
+	endcase
+	
+	case(SA)
+		2'b00: Adata=R0;
+		2'b01: Adata=R1;
+		2'b10: Adata=R2;
+		2'b11: Adata=R3;
+	endcase
+
+	case(SB)
+		2'b00: Bdata=R0;
+		2'b01: Bdata=R1;
+		2'b10: Bdata=R2;
+		2'b11: Bdata=R3;
+	endcase
+		
+end
+endmodule 

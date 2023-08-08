@@ -1,0 +1,79 @@
+# Reading pref.tcl
+# ERROR: No extended dataflow license exists
+# do Rep_Lab_06_B0829002_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim - Intel FPGA Edition vmap 2020.1 Lib Mapping Utility 2020.02 Feb 28 2020
+# vmap work rtl_work 
+# Copying C:/intelFPGA_lite/20.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/Rep_Lab_06_B0829002.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:21 on Dec 16,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/Rep_Lab_06_B0829002.v 
+# -- Compiling module lab6
+# 
+# Top level modules:
+# 	lab6
+# End time: 00:54:21 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:21 on Dec 16,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v 
+# -- Compiling module alu
+# ** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v(10): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# ** Warning: C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v(17): (vlog-2600) [RDGN] - Redundant digits in numeric literal.
+# 
+# Top level modules:
+# 	alu
+# End time: 00:54:21 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 2
+# vlog -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002 {C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/sib.v}
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 00:54:22 on Dec 16,2022
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002" C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/sib.v 
+# -- Compiling module sib
+# 
+# Top level modules:
+# 	sib
+# End time: 00:54:22 on Dec 16,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.lab6
+# vsim work.lab6 
+# Start time: 00:54:25 on Dec 16,2022
+# Loading work.lab6
+# Loading work.alu
+# Loading work.sib
+add wave sim:/lab6/*
+add wave -position insertpoint  \
+sim:/lab6/s \
+sim:/lab6/cin \
+sim:/lab6/A \
+sim:/lab6/B \
+sim:/lab6/sibG \
+sim:/lab6/clk \
+sim:/lab6/G \
+sim:/lab6/tmpA \
+sim:/lab6/tmpB \
+sim:/lab6/tmpG \
+sim:/lab6/wire_G
+run
+step -out
+# Nothing left to do.
+vsim work.lab6
+# End time: 00:56:55 on Dec 16,2022, Elapsed time: 0:02:30
+# Errors: 0, Warnings: 0
+# vsim work.lab6 
+# Start time: 00:56:55 on Dec 16,2022
+# Loading work.lab6
+# Loading work.alu
+# Loading work.sib
+# WARNING: No extended dataflow license exists
+# End time: 00:57:17 on Dec 16,2022, Elapsed time: 0:00:22
+# Errors: 0, Warnings: 0

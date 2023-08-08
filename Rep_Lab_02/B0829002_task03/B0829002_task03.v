@@ -1,0 +1,12 @@
+module task03(clk, clk_1_2);
+	input clk;
+	output reg clk_1_2;
+	reg [25:0] counter;
+always @(posedge clk) begin
+	counter <= counter+1;
+	if(counter > 26'd50000000-26'd1) begin 
+		counter <= 0;
+		clk_1_2 <= ~clk_1_2;
+		end
+	end 
+endmodule

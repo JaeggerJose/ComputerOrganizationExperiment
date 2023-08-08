@@ -1,0 +1,35 @@
+# do Task0930.do
+# ** Warning: (vlib-34) Library already exists at "work".
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:13:03 on Oct 07,2022
+# vlog -work work Task0930.vo 
+# -- Compiling module Task0930
+# 
+# Top level modules:
+# 	Task0930
+# End time: 23:13:03 on Oct 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+# Start time: 23:13:03 on Oct 07,2022
+# vlog -work work Waveform.vwf.vt 
+# -- Compiling module Task0930_vlg_vec_tst
+# 
+# Top level modules:
+# 	Task0930_vlg_vec_tst
+# End time: 23:13:03 on Oct 07,2022, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vsim -c -t 1ps -L cyclonev_ver -L altera_ver -L altera_mf_ver -L 220model_ver -L sgate_ver -L altera_lnsim_ver work.Task0930_vlg_vec_tst 
+# Start time: 23:13:03 on Oct 07,2022
+# Loading work.Task0930_vlg_vec_tst
+# Loading work.Task0930
+# Loading cyclonev_ver.cyclonev_io_obuf
+# Loading cyclonev_ver.cyclonev_io_ibuf
+# Loading cyclonev_ver.cyclonev_clkena
+# Loading altera_ver.dffeas
+# Loading cyclonev_ver.cyclonev_lcell_comb
+# Loading altera_ver.PRIM_GDFF_LOW
+# after#25
+# ** Note: $finish    : Waveform.vwf.vt(51)
+#    Time: 1 us  Iteration: 0  Instance: /Task0930_vlg_vec_tst
+# End time: 23:13:04 on Oct 07,2022, Elapsed time: 0:00:01
+# Errors: 0, Warnings: 0

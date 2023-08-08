@@ -1,0 +1,113 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "sibTA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "sibTA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "sibTA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "sibTA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "sibTA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "sibTA[5]",
+					"strict" : false
+				},
+				{
+					"name" : "sibTA[6]",
+					"strict" : false
+				},
+				{
+					"name" : "neg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[0]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[1]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[2]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[3]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[4]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[5]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[6]",
+					"strict" : false
+				},
+				{
+					"name" : "Dataout[7]",
+					"strict" : false
+				},
+				{
+					"name" : "status[0]",
+					"strict" : false
+				},
+				{
+					"name" : "status[1]",
+					"strict" : false
+				},
+				{
+					"name" : "status[2]",
+					"strict" : false
+				},
+				{
+					"name" : "clk",
+					"strict" : false
+				},
+				{
+					"name" : "TA[0]",
+					"strict" : false
+				},
+				{
+					"name" : "TA[1]",
+					"strict" : false
+				},
+				{
+					"name" : "TA[4]",
+					"strict" : false
+				},
+				{
+					"name" : "TA[2]",
+					"strict" : false
+				},
+				{
+					"name" : "TA[3]",
+					"strict" : false
+				},
+				{
+					"name" : "but",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

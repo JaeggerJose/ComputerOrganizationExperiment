@@ -1,0 +1,83 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/simulation/modelsim
+valu
+Z1 !s110 1671123261
+!i10b 1
+!s100 kO<iR9hQf7c=VC:?OJ8k30
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+I8ZMk^c<m8CJcTGfFR[NP<2
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1671120140
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v
+!i122 1
+L0 1 30
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1671123261.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/alu.v|
+!i113 1
+Z6 o-vlog01compat -work work
+Z7 !s92 -vlog01compat -work work +incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002
+Z8 tCvgOpt 0
+vlab6
+R1
+!i10b 1
+!s100 nM:1hzie1Wn9HFj8@TXk?0
+R2
+I<Ub_g5@z:GHOz=kl6I20g1
+R3
+R0
+w1671123157
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/Rep_Lab_06_B0829002.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/Rep_Lab_06_B0829002.v
+!i122 0
+L0 1 24
+R4
+r1
+!s85 0
+31
+R5
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/Rep_Lab_06_B0829002.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/Rep_Lab_06_B0829002.v|
+!i113 1
+R6
+R7
+R8
+vsib
+!s110 1671123262
+!i10b 1
+!s100 :6V9VD[mkS4DX8XOe5R8g0
+R2
+IZnz^J2Sg1IjA3CN2C2R=P0
+R3
+R0
+w1671121117
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/sib.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/sib.v
+!i122 2
+L0 1 20
+R4
+r1
+!s85 0
+31
+!s108 1671123262.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/sib.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Lab_06_B0829002/sib.v|
+!i113 1
+R6
+R7
+R8

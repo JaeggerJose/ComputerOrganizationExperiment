@@ -1,0 +1,18 @@
+module perlab4(clk_50M, swi, button_in, LED)
+	input [7:0] swi, button_in, clk_50M;
+	output reg [7:0] LED;
+	wire button_out;
+	debounce(clk_50M, button_in, button_out);
+
+always @(posedge clk_50M) begin
+	if(button_out) begin
+		LED[0] <= swi[0];
+		LED[1] <= swi[1];
+		LED[2] <= swi[2];
+		LED[3] <= swi[3];
+		LED[4] <= swi[4];
+		LED[5] <= swi[5];
+		LED[6] <= swi[6];
+		LED[7] <= swi[7];
+	end 
+end 

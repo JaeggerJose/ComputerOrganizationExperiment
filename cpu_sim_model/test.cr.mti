@@ -1,0 +1,36 @@
+C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top
+
+Top level modules:
+	Top
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/DMEM.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/DMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module DMEM
+
+Top level modules:
+	DMEM
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top_tb.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/Top_tb.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module Top_tb
+
+Top level modules:
+	Top_tb
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/IMEM.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/IMEM.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module IMEM
+
+Top level modules:
+	IMEM
+
+} {} {}} C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/CPU.v {1 {vlog -work work -stats=none C:/Users/lms02/OneDrive/Desktop/cpu_sim_model/CPU.v
+Model Technology ModelSim - Intel FPGA Edition vlog 2020.1 Compiler 2020.02 Feb 28 2020
+-- Compiling module CPU
+
+Top level modules:
+	CPU
+
+} {} {}}

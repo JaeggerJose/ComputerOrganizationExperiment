@@ -1,0 +1,11 @@
+|Task0930
+Y <= inst2.DB_MAX_OUTPUT_PORT_TYPE
+clk => DA_Flipflop.CLK
+clk => DB_Flipflop.CLK
+X => DB_Flipflop.DATAIN
+X => inst.IN1
+X => inst2.IN1
+pin_name1 <= DB_Flipflop.DB_MAX_OUTPUT_PORT_TYPE
+pin_name2 <= DA_Flipflop.DB_MAX_OUTPUT_PORT_TYPE
+
+

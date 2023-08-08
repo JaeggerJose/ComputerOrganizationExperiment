@@ -1,0 +1,12 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/lms02/OneDrive/Desktop/Task0930/Task0930.bdf
+source_file = 1, C:/Users/lms02/OneDrive/Desktop/Task0930/db/Task0930.cbx.xml
+design_name = Task0930
+instance = comp, \Y~output , Y~output, Task0930, 1
+instance = comp, \pin_name1~output , pin_name1~output, Task0930, 1
+instance = comp, \pin_name2~output , pin_name2~output, Task0930, 1
+instance = comp, \clk~input , clk~input, Task0930, 1
+instance = comp, \clk~inputCLKENA0 , clk~inputCLKENA0, Task0930, 1
+instance = comp, \X~input , X~input, Task0930, 1
+instance = comp, \inst3~0 , inst3~0, Task0930, 1
+instance = comp, \~QUARTUS_CREATED_GND~I , ~QUARTUS_CREATED_GND~I, Task0930, 1

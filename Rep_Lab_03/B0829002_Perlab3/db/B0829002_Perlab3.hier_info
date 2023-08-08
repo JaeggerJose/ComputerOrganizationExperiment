@@ -1,0 +1,63 @@
+|perlab3
+clk_50M => clk_50M.IN1
+LED << Selector0.DB_MAX_OUTPUT_PORT_TYPE
+button_in => button_in.IN1
+clk_1_2 << clk_1_2~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|perlab3|debounce:comb_3
+clk_in => counter[0].CLK
+clk_in => counter[1].CLK
+clk_in => counter[2].CLK
+clk_in => counter[3].CLK
+clk_in => counter[4].CLK
+clk_in => counter[5].CLK
+clk_in => counter[6].CLK
+clk_in => counter[7].CLK
+clk_in => counter[8].CLK
+clk_in => counter[9].CLK
+clk_in => counter[10].CLK
+clk_in => counter[11].CLK
+clk_in => counter[12].CLK
+clk_in => counter[13].CLK
+clk_in => counter[14].CLK
+clk_in => counter[15].CLK
+clk_in => counter[16].CLK
+clk_in => counter[17].CLK
+clk_in => counter[18].CLK
+clk_in => counter[19].CLK
+clk_in => counter[20].CLK
+clk_in => counter[21].CLK
+clk_in => counter[22].CLK
+clk_in => counter[23].CLK
+clk_in => counter[24].CLK
+clk_in => counter[25].CLK
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_in => counter.OUTPUTSELECT
+button_out <= Equal1.DB_MAX_OUTPUT_PORT_TYPE
+
+

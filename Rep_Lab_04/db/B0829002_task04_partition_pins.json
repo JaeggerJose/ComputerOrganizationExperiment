@@ -1,0 +1,149 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "LED[0]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[1]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[2]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[3]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[4]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[5]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[6]",
+					"strict" : false
+				},
+				{
+					"name" : "LED[7]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[0]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[1]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[2]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[3]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[4]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[5]",
+					"strict" : false
+				},
+				{
+					"name" : "out2[6]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[0]",
+					"strict" : false
+				},
+				{
+					"name" : "RLswi",
+					"strict" : false
+				},
+				{
+					"name" : "clk_50M",
+					"strict" : false
+				},
+				{
+					"name" : "swi[1]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[2]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[3]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[4]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[5]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[6]",
+					"strict" : false
+				},
+				{
+					"name" : "swi[7]",
+					"strict" : false
+				},
+				{
+					"name" : "button_in3",
+					"strict" : false
+				},
+				{
+					"name" : "button_in2",
+					"strict" : false
+				},
+				{
+					"name" : "button_in",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

@@ -1,0 +1,59 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Datapath/simulation/qsim
+vAbsolute
+Z1 !s110 1666934075
+!i10b 1
+!s100 =oQDj2C>`0dnb7gcE1MT<1
+Z2 !s11b Dg1SIo80bB@j0V0VzS_@n1
+In8]1J5Q8^EkNAPzz2]c`L1
+Z3 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1666934073
+8Datapath.vo
+FDatapath.vo
+!i122 12
+L0 32 643
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+Z5 !s108 1666934075.000000
+!s107 Datapath.vo|
+!s90 -work|work|Datapath.vo|
+!i113 1
+Z6 o-work work
+Z7 tCvgOpt 0
+n@absolute
+vAbsolute_vlg_vec_tst
+R1
+!i10b 1
+!s100 <U:oG>]7Xoj?1YaiidMhC1
+R2
+I?:iBQ``=H`YYPG=iZhPW?3
+R3
+R0
+w1666934071
+8Waveform2.vwf.vt
+FWaveform2.vwf.vt
+!i122 13
+L0 30 198
+R4
+r1
+!s85 0
+31
+R5
+!s107 Waveform2.vwf.vt|
+!s90 -work|work|Waveform2.vwf.vt|
+!i113 1
+R6
+R7
+n@absolute_vlg_vec_tst

@@ -1,0 +1,157 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "outsec0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outsec1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin0[6]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[0]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[1]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[2]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[3]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[4]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[5]",
+					"strict" : false
+				},
+				{
+					"name" : "outmin1[6]",
+					"strict" : false
+				},
+				{
+					"name" : "mode",
+					"strict" : false
+				},
+				{
+					"name" : "stop",
+					"strict" : false
+				},
+				{
+					"name" : "speed[0]",
+					"strict" : false
+				},
+				{
+					"name" : "speed[1]",
+					"strict" : false
+				},
+				{
+					"name" : "clkin",
+					"strict" : false
+				},
+				{
+					"name" : "but",
+					"strict" : false
+				},
+				{
+					"name" : "but2",
+					"strict" : false
+				},
+				{
+					"name" : "but4",
+					"strict" : false
+				},
+				{
+					"name" : "but3",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

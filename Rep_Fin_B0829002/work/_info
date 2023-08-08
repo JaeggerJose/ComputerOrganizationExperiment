@@ -1,0 +1,316 @@
+m255
+K4
+z2
+!s11f vlog 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+dC:/intelFPGA_lite/20.1
+valu
+Z0 !s110 1673597869
+!i10b 1
+!s100 bgYl^QcdEJ?@jT_UnQSj73
+Z1 !s11b Dg1SIo80bB@j0V0VzS_@n1
+IAP:Ad<^R9gCAfCziam69Z0
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+Z3 dC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002
+w1673596910
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v
+!i122 736
+L0 1 31
+Z4 OV;L;2020.1;71
+r1
+!s85 0
+31
+!s108 1673597869.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/alu.v|
+!i113 1
+Z5 o-work work
+Z6 tCvgOpt 0
+vCPU
+!s110 1673597868
+!i10b 1
+!s100 e8b:2??<k0`8EizVT1dQK1
+R1
+IlSc@^K^SzE[<KbPMF<?N_0
+R2
+R3
+w1673596412
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v
+!i122 734
+L0 1 61
+R4
+r1
+!s85 0
+31
+Z7 !s108 1673597868.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/CPU.v|
+!i113 1
+R5
+R6
+n@c@p@u
+vdebounce
+R0
+!i10b 1
+!s100 heOajgnk7ANM3H[06Y<EN3
+R1
+Il;hGZgMkKFnh8U4EC^7NZ0
+R2
+R3
+w1668750251
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/debounce.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/debounce.v
+!i122 735
+L0 1 19
+R4
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/debounce.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/debounce.v|
+!i113 1
+R5
+R6
+vDMEM
+Z8 !s110 1673597849
+!i10b 1
+!s100 G2:G^Q3z^h:D6dh5X[8K13
+R1
+IP_OShLl4RalAB2LnJlV880
+R2
+R3
+w1673003190
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v
+!i122 723
+L0 1 17
+R4
+r1
+!s85 0
+31
+Z9 !s108 1673597849.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/DMEM.v|
+!i113 1
+R5
+R6
+n@d@m@e@m
+vfuntion_unit
+R8
+!i10b 1
+!s100 NgKJ]`j[BEUb^k^cCkk0V2
+R1
+IlV7hUMM>TW@aUIAJ6Ofd_0
+R2
+R3
+w1673596393
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v
+!i122 724
+L0 1 22
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/funtion_unit.v|
+!i113 1
+R5
+R6
+vIMEM
+Z10 !s110 1673597850
+!i10b 1
+!s100 i@_3>_3NXKM4k^?0k=3;F0
+R1
+Im]U`zo@5ol;eCkeXTLI=Y1
+R2
+R3
+w1673003191
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v
+!i122 725
+Z11 L0 1 10
+R4
+r1
+!s85 0
+31
+R9
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/IMEM.v|
+!i113 1
+R5
+R6
+n@i@m@e@m
+vminussib
+R10
+!i10b 1
+!s100 d>AG^`IQ67FNEGo@gB=CE2
+R1
+IdBXzn=YeZQ70SPlCHA;eO2
+R2
+R3
+w1672406870
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/minussib.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/minussib.v
+!i122 726
+L0 1 11
+R4
+r1
+!s85 0
+31
+Z12 !s108 1673597850.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/minussib.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/minussib.v|
+!i113 1
+R5
+R6
+vregisterfile
+R10
+!i10b 1
+!s100 >g;9HdV:e=Uz3gUnYYe6?1
+R1
+I<j@>4KVkBJTD0l3JVz@K82
+R2
+R3
+w1673515180
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v
+!i122 727
+L0 1 67
+R4
+r1
+!s85 0
+31
+R12
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/registerfile.v|
+!i113 1
+R5
+R6
+vRep_Lab_07
+Z13 !s110 1673597853
+!i10b 1
+!s100 Tbe7;?X2iiJE218XfcHn[0
+R1
+I^e>Y4doI16MP0]kZg36=b1
+R2
+R3
+w1673596392
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v
+!i122 728
+L0 1 32
+R4
+r1
+!s85 0
+31
+!s108 1673597852.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Rep_Lab_07.v|
+!i113 1
+R5
+R6
+n@rep_@lab_07
+vshifter
+R13
+!i10b 1
+!s100 gTT5ID:m54FY`:S^FS?3U2
+R1
+I:>i9SX3YZ7=mCE:J]2YI:0
+R2
+R3
+w1672211759
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v
+!i122 729
+L0 1 15
+R4
+r1
+!s85 0
+31
+Z14 !s108 1673597853.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/shifter.v|
+!i113 1
+R5
+R6
+vsib
+Z15 !s110 1673597854
+!i10b 1
+!s100 <5c=bWMUAA055GC:M_C0_2
+R1
+I_7`P66FcjMMKoj=MWUaW<1
+R2
+R3
+w1671176473
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/sib.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/sib.v
+!i122 730
+L0 1 26
+R4
+r1
+!s85 0
+31
+R14
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/sib.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/sib.v|
+!i113 1
+R5
+R6
+vTop
+R15
+!i10b 1
+!s100 bKg49MTTeE<n`QJEW26JZ0
+R1
+I2QS[S`d:f[gZi<mbK3TUo1
+R2
+R3
+w1673596438
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v
+!i122 731
+R11
+R4
+r1
+!s85 0
+31
+Z16 !s108 1673597854.000000
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top.v|
+!i113 1
+R5
+R6
+n@top
+vTop_tb
+R15
+!i10b 1
+!s100 =SlHnY0a2zY5[EoHMn?E^3
+R1
+Ij3CbO@jGld=TDmWZ@==^a0
+R2
+R3
+w1673596567
+8C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top_tb.v
+FC:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top_tb.v
+!i122 732
+L0 2 18
+R4
+r1
+!s85 0
+31
+R16
+!s107 C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top_tb.v|
+!s90 -reportprogress|300|-work|work|-stats=none|C:/Users/lms02/OneDrive/Desktop/Computer_Organization_Experiment/Rep_Fin_B0829002/Top_tb.v|
+!i113 1
+R5
+R6
+n@top_tb

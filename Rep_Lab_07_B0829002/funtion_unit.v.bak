@@ -1,0 +1,14 @@
+module funtion_unit(A,B,MF,FS,V,C,N,Z);
+	input [7:0] A,B;
+	input MF,FS;
+	output reg [7:0] F;
+	output V,C,N,Z;
+	wire [7:0] G,H; 
+always @(*) begin
+	case(MF)
+		1'b0: F=G;
+		1'b1: F=H
+		default F = 0;
+	endcase
+end
+endmodule 

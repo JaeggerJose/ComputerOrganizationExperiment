@@ -1,0 +1,42 @@
+module Rep_Lab_07(Cosin,Datain,FS,MD,MB,LD,DS,clk,AA,BA,Addout,Dataout,status_bit, BusD, tmpR1, regs);
+	input [7:0] Cosin, Datain;
+	input [3:0] FS;
+	input [2:0] regs;
+	input [2:0] DS,AA,BA;
+	wire [7:0] Adata,Bdata,F;
+	wire V,C,N,Z;
+	reg [7:0] BusB = 0;
+	output reg [7:0] BusD = 0;
+	reg MF;
+	output reg [15:0] status_bit = 0;
+	output reg [7:0] Addout,Dataout;
+	input MD,MB,LD,clk;
+	output [7:0] tmpR1;
+	registerfile  rff(LD,DS,clk,BusD,AA,BA,Adata,Bdata,tmpR1, regs);
+	funtion_unit  fuu(Adata,BusB,FS,V,C,N,Z,F);
+	
+	
+always @(*) begin
+	
+	status_bit[0] = LD;
+	status_bit[1] = MD;
+	status_bit[5:2] = FS;
+	status_bit[6] = MB;
+	status_bit[9:7] = BA;
+	status_bit[12:10] = AA;
+	status_bit[15:13] = DS;
+	
+	if(MB)
+		BusB = Cosin;
+	else
+		BusB = Bdata;	
+	
+	if(MD)
+		BusD = Datain;
+	else
+		BusD = F;
+	
+	Dataout = BusB;
+	Addout = Adata;
+end
+endmodule 
